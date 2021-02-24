@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<style>
+
+h1,h2{color: white;
+}
+
+form{color: white;
+} 
+
+.marked {
+    background-color:yellow;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+body{
+  background-color: black;
+  text-align: center;
+  
+}
+
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  margin: auto;
+  
+}
+
+details > p {
+width: 150px;
+box-shadow: 1px 1px 2px #bbbbbb;
+background-color: #eeeeee;
+margin: auto;
+}
+
+
+div.a {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+  display: flex;
+  align-items: center;
+  margin: auto;
+  transition: width 2s, height 4s;
+  
+}
+
+div.a:hover {
+  width: 300px;
+  height: 300px;
+}
+
+
+.contactBox{
+ border-radius: 25px;
+width: 120px;
+height: 80 px;
+background-color:white;
+margin: auto;
+}
+
+h.bigroundedbox{
+border-radius: 25px;
+width: 500px;
+height:80 px;
+background-color: light-blue;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>&#129340;
+Action Hank
+&#129340;
+
+<div class = "contactBox">
+<p><a href="mailto:h enrypatrickjames@gmail.com"><i class="glyphicon glyphicon-envelope"></i></a></p></div>
+</h1>
+
+
+
+<h2 class = "bigroundedbox" >yoooooooo</h2>
+
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<br>
+<details>
+  <summary>Learn more</summary>
+  <p>Beastman, you furry fool.</p>
+</details>
+
+
+
+
+<br><br><br><br>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.6/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products hat you want to use
+https://firebase.google.co/docs/web/setupavailable-libraries -->
+<script src="/__/firebase/8.2.6/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+</body>
+<footer>
+<div class="a">Testimonials: 'Holy shit these are some powerful chucks bro &#128512;'</div>
+</footer>
+</html>
